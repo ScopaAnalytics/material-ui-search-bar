@@ -29,7 +29,7 @@ const styles = (theme) => ({
     },
   },
   searchIconButton: {
-    marginRight: theme.spacing(-6),
+    marginRight: "".concat(theme.spacing(-6), " !important"),
   },
   icon: {
     transition: theme.transitions.create(["opacity"], {
@@ -42,7 +42,7 @@ const styles = (theme) => ({
   },
   searchContainer: {
     margin: "auto 16px",
-    width: `calc(100% - ${theme.spacing(6 + 4)}px)`, // 6 button + 4 margin
+    width: `calc(100% - ${theme.spacing(6 + 4)})`, // 6 button + 4 margin
   },
 });
 
